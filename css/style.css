@@ -1,0 +1,94 @@
+:root {
+  font-size: 10px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+#my-h1 {
+  font-size: 8rem;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  margin: 5rem 0;
+}
+
+#p-press,
+#my-quote #my-q {
+  font-size: 3.5rem;
+  margin: 3rem 0;
+}
+
+#my-quote #my-q {
+  font-weight: 500;
+}
+
+#my-quote #p-author {
+  font-size: 3rem;
+  margin: 2rem 0;
+}
+
+#my-button {
+  width: 25rem;
+  height: 8rem;
+  background-color: #2196f3;
+  color: #fff;
+  font-size: 2rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+#my-button:hover {
+  background-color: #4caf50;
+}
+
+@media screen and (max-width: 767px) {
+  #container {
+    width: 95%;
+  }
+  #my-h1 {
+    font-size: 7rem;
+    margin: 4rem 0;
+  }
+  #p-press,
+  #my-quote #my-q {
+  font-size: 3rem;
+  margin: 2rem 0;
+  }
+  #my-quote #p-author {
+    font-size: 2.5rem;
+    margin: 1.8rem 0;
+  }
+  #my-button {
+    width: 20rem;
+    height: 7rem;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  #my-h1 {
+    font-size: 6rem;
+    margin: 3rem 0;
+  }
+  #p-press,
+  #my-quote #my-q {
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+  }
+  #my-quote #p-author {
+    font-size: 2rem;
+    margin: 1.4rem 0;
+  }
+  #my-button {
+    width: 15rem;
+    height: 6rem;
+    font-size: 1.6rem;
+  }
+}
